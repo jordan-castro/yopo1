@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Assembly-CSharp-firstpass/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Assembly-CSharp-firstpass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assembly-CSharp-firstpass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assembly-CSharp-firstpass/1.0.0": {
+      "type": "project",
+      "path": "Assembly-CSharp-firstpass.csproj",
+      "msbuildProject": "Assembly-CSharp-firstpass.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Assembly-CSharp-firstpass >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/jordancastro/.nuget/packages/": {},
+    "/Users/jordancastro/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/jordancastro/Yodo1/Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "/Users/jordancastro/Yodo1/Assembly-CSharp.csproj",
+      "packagesPath": "/Users/jordancastro/.nuget/packages/",
+      "outputPath": "/Users/jordancastro/Yodo1/Temp/obj/Debug/Assembly-CSharp/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/Users/jordancastro/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/jordancastro/.nuget/NuGet/NuGet.Config",
+        "/Users/jordancastro/.nuget/NuGet/config/Godot.Offline.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/Users/jordancastro/Yodo1/Assembly-CSharp-firstpass.csproj": {
+              "projectPath": "/Users/jordancastro/Yodo1/Assembly-CSharp-firstpass.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
